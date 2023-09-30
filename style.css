@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .container-login {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F3F5FB;
+    }
+    
+    .box-login {
+      width: 80%;
+      height: 80%;
+      display: flex;
+      justify-content: space-around;
+      background-color:#F2C438 ;
+      align-items: center;
+      border: 1px solid #F0B86E;
+      border-radius: 25px;
+      box-shadow: 0px 10px 10px #212529;
+      overflow: hidden;
+    }
+    
+    .box-login img {
+      width: 30vw;
+    }
+    
+    .box-form {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      padding: 5px;
+      max-width: 60ch;
+      width: 35%;
+    }
+    
+    .box-form .btn-login {
+      max-width: fit-content;
+      padding: 14px 44px 14px 44px;
+      border: none;
+      border-radius: 28px;
+      color: black;
+      background-color: #F2C438;
+      font-weight: 600;
+      cursor: pointer;
+      transition: .2s
+    }
+    
+    .box-form button:hover {
+      transform: scale(1.02);
+    }
+    
+    
+    .titulo-login {
+      font-size: 46px;
+      color: #F3F5FB;
+      font-family: 'Hammersmith One', sans-serif;
+      display: flex;
+    }
+    
+    .area-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    
+    .form-login {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .label-login {
+      color: #F3F5FB;
+      font-size: 1.2rem;
+      font-weight: 700;
+      font-family: 'Hammersmith One', sans-serif;
+    }
+    
+    .input-login {
+      background-color: #F3F5FB;
+      border-radius: 10px;
+      width: 100%;
+      border: none;
+      height: 45px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      margin-bottom: 10px;
+      font-size: 25px;
+      padding: 13px;
+      outline: none;
+      font-family: 'Poppins', sans-serif;
+      color: black;
+    }
+    
+    .area-login {
+      font-size: 1.0rem;
+      text-decoration: none;
+    }
+    
+    .box-form .btn-cancel {
+        max-width: fit-content;
+        padding: 14px 44px 14px 44px;
+        border: none;
+        border-radius: 28px;
+        color: black;
+        background-color:#404040;
+        font-weight: 600;
+        cursor: pointer;
+        transition: .2s
+    }
+    
